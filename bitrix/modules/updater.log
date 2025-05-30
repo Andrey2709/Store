@@ -1,0 +1,669 @@
+2025-05-30 17:20:49 -  - exec CUpdateClient::GetUpdatesList
+2025-05-30 17:20:49 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:20:49 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.300&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.300&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=24.900.0&bitm_bizprocdesigner=24.700.0&bitm_blog=24.300.0&bitm_calendar=24.450.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.0&bitm_form=24.0.0&bitm_forum=25.100.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.0&bitm_idea=24.100.0&bitm_im=25.0.100&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.0.0&bitm_location=25.0.0&bitm_mail=24.800.300&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.0.50&bitm_report=24.100.0&bitm_rest=25.100.200&bitm_sale=24.300.0&bitm_search=25.0.0&bitm_security=24.0.100&bitm_sender=24.300.100&bitm_seo=24.600.100&bitm_socialnetwork=24.375.300&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=24.100.0&bitm_ui=25.0.0&bitm_vote=24.0.100&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:20:49 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:20:51 -  - TIME GetUpdatesList(request) 1.641 sec
+2025-05-30 17:20:51 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:01 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:01 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:21:01 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.300&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.300&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=24.900.0&bitm_bizprocdesigner=24.700.0&bitm_blog=24.300.0&bitm_calendar=24.450.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.0&bitm_form=24.0.0&bitm_forum=25.100.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.0&bitm_idea=24.100.0&bitm_im=25.0.100&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.0.0&bitm_location=25.0.0&bitm_mail=24.800.300&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.0.50&bitm_report=24.100.0&bitm_rest=25.100.200&bitm_sale=24.300.0&bitm_search=25.0.0&bitm_security=24.0.100&bitm_sender=24.300.100&bitm_seo=24.600.100&bitm_socialnetwork=24.375.300&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=24.100.0&bitm_ui=25.0.0&bitm_vote=24.0.100&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:21:01 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:21:02 -  - TIME LoadModulesUpdates(request) 0.162 sec
+2025-05-30 17:21:02 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:02 - S - STEP
+2025-05-30 17:21:02 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:21:02 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:02 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:02 -  - loadFile
+2025-05-30 17:21:02 - U - RETURN
+2025-05-30 17:21:02 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:21:02 -  - TIME UnGzipArchive 0.007 sec
+2025-05-30 17:21:02 -  - TIME UpdateStepModules 0.007 sec
+2025-05-30 17:21:02 - UPD_SUCCESS - Updated: main (25.100.400)<br><li>Усилена проверка доступа в редактировании почтовых шаблонов в панели управления. 
+2025-05-30 17:21:03 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:03 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:21:03 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=24.900.0&bitm_bizprocdesigner=24.700.0&bitm_blog=24.300.0&bitm_calendar=24.450.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.0&bitm_form=24.0.0&bitm_forum=25.100.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.0&bitm_idea=24.100.0&bitm_im=25.0.100&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.0.0&bitm_location=25.0.0&bitm_mail=24.800.300&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.0.50&bitm_report=24.100.0&bitm_rest=25.100.200&bitm_sale=24.300.0&bitm_search=25.0.0&bitm_security=24.0.100&bitm_sender=24.300.100&bitm_seo=24.600.100&bitm_socialnetwork=24.375.300&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=24.100.0&bitm_ui=25.0.0&bitm_vote=24.0.100&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:21:03 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:21:03 -  - TIME LoadModulesUpdates(request) 0.154 sec
+2025-05-30 17:21:03 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:03 - S - STEP
+2025-05-30 17:21:03 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:21:03 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:03 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:03 -  - loadFile
+2025-05-30 17:21:03 - U - RETURN
+2025-05-30 17:21:03 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:21:03 -  - TIME UnGzipArchive 0.003 sec
+2025-05-30 17:21:04 -  - TIME UpdateStepModules 0.017 sec
+2025-05-30 17:21:04 - UPD_SUCCESS - Updated: fileman (24.500.100)<br><li>Усилена проверка доступа при копировании файлов в панели управления.
+2025-05-30 17:21:04 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:04 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:21:04 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=24.900.0&bitm_bizprocdesigner=24.700.0&bitm_blog=24.300.0&bitm_calendar=24.450.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.100.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.0&bitm_idea=24.100.0&bitm_im=25.0.100&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.0.0&bitm_location=25.0.0&bitm_mail=24.800.300&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.0.50&bitm_report=24.100.0&bitm_rest=25.100.200&bitm_sale=24.300.0&bitm_search=25.0.0&bitm_security=24.0.100&bitm_sender=24.300.100&bitm_seo=24.600.100&bitm_socialnetwork=24.375.300&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=24.100.0&bitm_ui=25.0.0&bitm_vote=24.0.100&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:21:04 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:21:04 -  - TIME LoadModulesUpdates(request) 0.13 sec
+2025-05-30 17:21:04 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:04 - S - STEP
+2025-05-30 17:21:04 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:21:05 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:05 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:05 -  - loadFile
+2025-05-30 17:21:05 - U - RETURN
+2025-05-30 17:21:05 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:21:05 -  - TIME UnGzipArchive 0.006 sec
+2025-05-30 17:21:05 - CSURUS1 - Run updater '/bitrix/updates/update_m1748614865/forum/updater25.200.0.php'
+2025-05-30 17:21:05 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614865/forum/updater25.200.0.php': CopyFiles(install/components, components)
+2025-05-30 17:21:05 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614865/forum/updater25.200.0.php': CopyFiles(install/public/templates, templates)
+2025-05-30 17:21:05 -  - TIME UpdateStepModules 0.015 sec
+2025-05-30 17:21:05 - UPD_SUCCESS - Updated: forum (25.200.0)<br><li>Улучшена совместимость с PostgreSQL. <li>Оптимизация использования памяти.
+2025-05-30 17:21:05 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:05 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:21:05 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=24.900.0&bitm_bizprocdesigner=24.700.0&bitm_blog=24.300.0&bitm_calendar=24.450.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.0&bitm_idea=24.100.0&bitm_im=25.0.100&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.0.0&bitm_location=25.0.0&bitm_mail=24.800.300&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.0.50&bitm_report=24.100.0&bitm_rest=25.100.200&bitm_sale=24.300.0&bitm_search=25.0.0&bitm_security=24.0.100&bitm_sender=24.300.100&bitm_seo=24.600.100&bitm_socialnetwork=24.375.300&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=24.100.0&bitm_ui=25.0.0&bitm_vote=24.0.100&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:21:05 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:21:05 -  - TIME LoadModulesUpdates(request) 0.173 sec
+2025-05-30 17:21:05 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:05 - S - STEP
+2025-05-30 17:21:05 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:21:05 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:05 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:05 -  - loadFile
+2025-05-30 17:21:06 - U - RETURN
+2025-05-30 17:21:06 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:21:06 -  - TIME UnGzipArchive 0.012 sec
+2025-05-30 17:21:06 -  - TIME UpdateStepModules 0.021 sec
+2025-05-30 17:21:06 - UPD_SUCCESS - Updated: iblock (24.300.100)<br><li>Усилена проверка доступа в редактировании настроек инфоблока. <li>Усилена проверка корректности путей к файлам при импорте. 
+2025-05-30 17:21:06 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:06 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:21:06 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=24.900.0&bitm_bizprocdesigner=24.700.0&bitm_blog=24.300.0&bitm_calendar=24.450.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.100&bitm_idea=24.100.0&bitm_im=25.0.100&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.0.0&bitm_location=25.0.0&bitm_mail=24.800.300&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.0.50&bitm_report=24.100.0&bitm_rest=25.100.200&bitm_sale=24.300.0&bitm_search=25.0.0&bitm_security=24.0.100&bitm_sender=24.300.100&bitm_seo=24.600.100&bitm_socialnetwork=24.375.300&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=24.100.0&bitm_ui=25.0.0&bitm_vote=24.0.100&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:21:06 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:21:06 -  - TIME LoadModulesUpdates(request) 0.144 sec
+2025-05-30 17:21:06 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:06 - S - STEP
+2025-05-30 17:21:06 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:21:06 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:06 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:06 -  - loadFile
+2025-05-30 17:21:07 - U - RETURN
+2025-05-30 17:21:07 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:21:07 -  - TIME UnGzipArchive 0.003 sec
+2025-05-30 17:21:07 -  - TIME UpdateStepModules 0.005 sec
+2025-05-30 17:21:07 - UPD_SUCCESS - Updated: iblock (24.300.200)<br><li>В CSV-импорте административного раздела не импортировались файлы. 
+2025-05-30 17:21:07 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:07 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:21:07 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=24.900.0&bitm_bizprocdesigner=24.700.0&bitm_blog=24.300.0&bitm_calendar=24.450.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.0.100&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.0.0&bitm_location=25.0.0&bitm_mail=24.800.300&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.0.50&bitm_report=24.100.0&bitm_rest=25.100.200&bitm_sale=24.300.0&bitm_search=25.0.0&bitm_security=24.0.100&bitm_sender=24.300.100&bitm_seo=24.600.100&bitm_socialnetwork=24.375.300&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=24.100.0&bitm_ui=25.0.0&bitm_vote=24.0.100&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:21:07 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:21:07 -  - TIME LoadModulesUpdates(request) 0.158 sec
+2025-05-30 17:21:07 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:07 - S - STEP
+2025-05-30 17:21:07 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:21:07 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:07 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:07 -  - loadFile
+2025-05-30 17:21:07 - U - RETURN
+2025-05-30 17:21:07 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:21:07 -  - TIME UnGzipArchive 0.069 sec
+2025-05-30 17:21:07 - CSURUS1 - Run updater '/bitrix/updates/update_m1748614867/translate/updater25.0.0.php'
+2025-05-30 17:21:07 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614867/translate/updater25.0.0.php': CopyFiles(install/components, components)
+2025-05-30 17:21:08 -  - TIME UpdateStepModules 0.206 sec
+2025-05-30 17:21:08 - UPD_SUCCESS - Updated: translate (25.0.0)<br><li>Добавлен обработчик события добавления нового языка в настройках сайта. <li>Поправлена ошибка, когда при удалении неиспользуемых фраз не учитывались настройки из lang/.setting.php. 
+2025-05-30 17:21:08 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:08 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:21:08 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=24.900.0&bitm_bizprocdesigner=24.700.0&bitm_blog=24.300.0&bitm_calendar=24.450.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.0.100&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.0.0&bitm_location=25.0.0&bitm_mail=24.800.300&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.0.50&bitm_report=24.100.0&bitm_rest=25.100.200&bitm_sale=24.300.0&bitm_search=25.0.0&bitm_security=24.0.100&bitm_sender=24.300.100&bitm_seo=24.600.100&bitm_socialnetwork=24.375.300&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.0.0&bitm_vote=24.0.100&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:21:08 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:21:08 -  - TIME LoadModulesUpdates(request) 0.153 sec
+2025-05-30 17:21:08 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:08 - S - STEP
+2025-05-30 17:21:08 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:21:08 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:08 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:08 -  - loadFile
+2025-05-30 17:21:09 - U - RETURN
+2025-05-30 17:21:09 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:21:09 -  - TIME UnGzipArchive 0.459 sec
+2025-05-30 17:21:09 - CSURUS1 - Run updater '/bitrix/updates/update_m1748614869/vote/updater25.0.0.php'
+2025-05-30 17:21:09 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614869/vote/updater25.0.0.php': CopyFiles(install/components, components)
+2025-05-30 17:21:09 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614869/vote/updater25.0.0.php': CopyFiles(install/js, js)
+2025-05-30 17:21:10 -  - TIME UpdateStepModules 1.21 sec
+2025-05-30 17:21:10 - UPD_SUCCESS - Updated: vote (25.0.0)<br><li>Добавлены REST-контроллеры для работы с опросами.
+2025-05-30 17:21:11 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:11 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:21:11 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=24.900.0&bitm_bizprocdesigner=24.700.0&bitm_blog=24.300.0&bitm_calendar=24.450.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.0.100&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.0.0&bitm_location=25.0.0&bitm_mail=24.800.300&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.0.50&bitm_report=24.100.0&bitm_rest=25.100.200&bitm_sale=24.300.0&bitm_search=25.0.0&bitm_security=24.0.100&bitm_sender=24.300.100&bitm_seo=24.600.100&bitm_socialnetwork=24.375.300&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.0.0&bitm_vote=25.0.0&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:21:11 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:21:11 -  - TIME LoadModulesUpdates(request) 0.164 sec
+2025-05-30 17:21:11 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:11 - S - STEP
+2025-05-30 17:21:11 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:21:11 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:11 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:11 -  - loadFile
+2025-05-30 17:21:11 - U - RETURN
+2025-05-30 17:21:11 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:21:12 -  - TIME UnGzipArchive 0.069 sec
+2025-05-30 17:21:12 - CSURUS1 - Run updater '/bitrix/updates/update_m1748614871/sale/updater24.400.0/index.php'
+2025-05-30 17:21:12 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614871/sale/updater24.400.0/index.php': CopyFiles(install/components, components)
+2025-05-30 17:21:12 -  - TIME UpdateStepModules 0.187 sec
+2025-05-30 17:21:12 - UPD_SUCCESS - Updated: sale (24.400.0)<br><li>Улучшена производительность модуля.
+2025-05-30 17:21:12 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:12 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:21:12 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=24.900.0&bitm_bizprocdesigner=24.700.0&bitm_blog=24.300.0&bitm_calendar=24.450.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.0.100&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.0.0&bitm_location=25.0.0&bitm_mail=24.800.300&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.0.50&bitm_report=24.100.0&bitm_rest=25.100.200&bitm_sale=24.400.0&bitm_search=25.0.0&bitm_security=24.0.100&bitm_sender=24.300.100&bitm_seo=24.600.100&bitm_socialnetwork=24.375.300&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.0.0&bitm_vote=25.0.0&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:21:12 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:21:12 -  - TIME LoadModulesUpdates(request) 0.159 sec
+2025-05-30 17:21:12 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:12 - S - STEP
+2025-05-30 17:21:12 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:21:13 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:13 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:13 -  - loadFile
+2025-05-30 17:21:13 - U - RETURN
+2025-05-30 17:21:13 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:21:13 -  - TIME UnGzipArchive 0.003 sec
+2025-05-30 17:21:13 -  - TIME UpdateStepModules 0.005 sec
+2025-05-30 17:21:13 - UPD_SUCCESS - Updated: mail (24.800.400)<br><li>Улучшили синхронизацию писем.
+2025-05-30 17:21:14 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:14 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:21:14 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=24.900.0&bitm_bizprocdesigner=24.700.0&bitm_blog=24.300.0&bitm_calendar=24.450.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.0.100&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.0.0&bitm_location=25.0.0&bitm_mail=24.800.400&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.0.50&bitm_report=24.100.0&bitm_rest=25.100.200&bitm_sale=24.400.0&bitm_search=25.0.0&bitm_security=24.0.100&bitm_sender=24.300.100&bitm_seo=24.600.100&bitm_socialnetwork=24.375.300&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.0.0&bitm_vote=25.0.0&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:21:14 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:21:14 -  - TIME LoadModulesUpdates(request) 0.177 sec
+2025-05-30 17:21:14 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:14 - S - STEP
+2025-05-30 17:21:14 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:21:14 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:14 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:14 -  - loadFile
+2025-05-30 17:21:15 - U - RETURN
+2025-05-30 17:21:15 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:21:15 -  - TIME UnGzipArchive 0.005 sec
+2025-05-30 17:21:15 -  - TIME UpdateStepModules 0.008 sec
+2025-05-30 17:21:15 - UPD_SUCCESS - Updated: mail (24.800.500)<br><li>Улучшили синхронизацию писем.
+2025-05-30 17:21:15 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:15 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:21:15 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=24.900.0&bitm_bizprocdesigner=24.700.0&bitm_blog=24.300.0&bitm_calendar=24.450.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.0.100&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.0.0&bitm_location=25.0.0&bitm_mail=24.800.500&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.0.50&bitm_report=24.100.0&bitm_rest=25.100.200&bitm_sale=24.400.0&bitm_search=25.0.0&bitm_security=24.0.100&bitm_sender=24.300.100&bitm_seo=24.600.100&bitm_socialnetwork=24.375.300&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.0.0&bitm_vote=25.0.0&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:21:15 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:21:16 -  - TIME LoadModulesUpdates(request) 0.168 sec
+2025-05-30 17:21:16 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:16 - S - STEP
+2025-05-30 17:21:16 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:21:16 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:16 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:16 -  - loadFile
+2025-05-30 17:21:16 - U - RETURN
+2025-05-30 17:21:16 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:21:16 -  - TIME UnGzipArchive 0.004 sec
+2025-05-30 17:21:16 -  - TIME UpdateStepModules 0.007 sec
+2025-05-30 17:21:16 - UPD_SUCCESS - Updated: mail (24.800.550)<br><li>Улучшили синхронизацию писем.
+2025-05-30 17:21:17 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:17 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:21:17 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=24.900.0&bitm_bizprocdesigner=24.700.0&bitm_blog=24.300.0&bitm_calendar=24.450.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.0.100&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.0.0&bitm_location=25.0.0&bitm_mail=24.800.550&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.0.50&bitm_report=24.100.0&bitm_rest=25.100.200&bitm_sale=24.400.0&bitm_search=25.0.0&bitm_security=24.0.100&bitm_sender=24.300.100&bitm_seo=24.600.100&bitm_socialnetwork=24.375.300&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.0.0&bitm_vote=25.0.0&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:21:17 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:21:17 -  - TIME LoadModulesUpdates(request) 0.164 sec
+2025-05-30 17:21:17 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:17 - S - STEP
+2025-05-30 17:21:17 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:21:17 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:17 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:17 -  - loadFile
+2025-05-30 17:21:17 - U - RETURN
+2025-05-30 17:21:17 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:21:17 -  - TIME UnGzipArchive 0.004 sec
+2025-05-30 17:21:17 - CSURUS1 - Run updater '/bitrix/updates/update_m1748614877/mail/updater24.800.600.php'
+2025-05-30 17:21:22 -  - TIME UpdateStepModules 5.311 sec
+2025-05-30 17:21:22 - UPD_SUCCESS - Updated: mail (24.800.600)<br><li>Повышение производительности.
+2025-05-30 17:21:23 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:23 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:21:23 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=24.900.0&bitm_bizprocdesigner=24.700.0&bitm_blog=24.300.0&bitm_calendar=24.450.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.0.100&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.0.0&bitm_location=25.0.0&bitm_mail=24.800.600&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.0.50&bitm_report=24.100.0&bitm_rest=25.100.200&bitm_sale=24.400.0&bitm_search=25.0.0&bitm_security=24.0.100&bitm_sender=24.300.100&bitm_seo=24.600.100&bitm_socialnetwork=24.375.300&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.0.0&bitm_vote=25.0.0&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:21:23 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:21:23 -  - TIME LoadModulesUpdates(request) 0.138 sec
+2025-05-30 17:21:23 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:23 - S - STEP
+2025-05-30 17:21:23 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:21:24 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:24 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:24 -  - loadFile
+2025-05-30 17:21:24 - U - RETURN
+2025-05-30 17:21:24 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:21:24 -  - TIME UnGzipArchive 0.003 sec
+2025-05-30 17:21:24 -  - TIME UpdateStepModules 0.005 sec
+2025-05-30 17:21:24 - UPD_SUCCESS - Updated: mail (24.800.700)<br><li>Добавлена возможности инициирования загрузки вложений в письмах из других модулей.
+2025-05-30 17:21:24 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:24 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:21:24 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=24.900.0&bitm_bizprocdesigner=24.700.0&bitm_blog=24.300.0&bitm_calendar=24.450.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.0.100&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.0.0&bitm_location=25.0.0&bitm_mail=24.800.700&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.0.50&bitm_report=24.100.0&bitm_rest=25.100.200&bitm_sale=24.400.0&bitm_search=25.0.0&bitm_security=24.0.100&bitm_sender=24.300.100&bitm_seo=24.600.100&bitm_socialnetwork=24.375.300&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.0.0&bitm_vote=25.0.0&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:21:24 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:21:24 -  - TIME LoadModulesUpdates(request) 0.162 sec
+2025-05-30 17:21:24 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:24 - S - STEP
+2025-05-30 17:21:24 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:21:24 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:24 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:24 -  - loadFile
+2025-05-30 17:21:25 - U - RETURN
+2025-05-30 17:21:25 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:21:25 -  - TIME UnGzipArchive 0.009 sec
+2025-05-30 17:21:25 - CSURUS1 - Run updater '/bitrix/updates/update_m1748614885/mail/updater24.800.800.php'
+2025-05-30 17:21:25 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614885/mail/updater24.800.800.php': CopyFiles(install/components, components)
+2025-05-30 17:21:25 -  - TIME UpdateStepModules 0.028 sec
+2025-05-30 17:21:25 - UPD_SUCCESS - Updated: mail (24.800.800)<br><li>Улучшена производительность опроса списка ящиков пользователя.
+2025-05-30 17:21:25 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:25 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:21:25 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=24.900.0&bitm_bizprocdesigner=24.700.0&bitm_blog=24.300.0&bitm_calendar=24.450.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.0.100&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.0.0&bitm_location=25.0.0&bitm_mail=24.800.800&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.0.50&bitm_report=24.100.0&bitm_rest=25.100.200&bitm_sale=24.400.0&bitm_search=25.0.0&bitm_security=24.0.100&bitm_sender=24.300.100&bitm_seo=24.600.100&bitm_socialnetwork=24.375.300&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.0.0&bitm_vote=25.0.0&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:21:25 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:21:25 -  - TIME LoadModulesUpdates(request) 0.155 sec
+2025-05-30 17:21:25 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:25 - S - STEP
+2025-05-30 17:21:25 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:21:25 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:25 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:25 -  - loadFile
+2025-05-30 17:21:26 - U - RETURN
+2025-05-30 17:21:26 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:21:26 -  - TIME UnGzipArchive 0.117 sec
+2025-05-30 17:21:26 - CSURUS1 - Run updater '/bitrix/updates/update_m1748614886/mail/updater25.0.0.php'
+2025-05-30 17:21:26 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614886/mail/updater25.0.0.php': CopyFiles(install/components, components)
+2025-05-30 17:21:26 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614886/mail/updater25.0.0.php': CopyFiles(install/js, js)
+2025-05-30 17:21:26 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614886/mail/updater25.0.0.php': CopyFiles(install/templates, templates)
+2025-05-30 17:21:26 -  - TIME UpdateStepModules 0.223 sec
+2025-05-30 17:21:26 - UPD_SUCCESS - Updated: mail (25.0.0)<br><li>Новые селекторы выбора в настройках почтового ящика. <li>Незначительные изменения фраз.
+2025-05-30 17:21:26 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:26 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:21:26 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=24.900.0&bitm_bizprocdesigner=24.700.0&bitm_blog=24.300.0&bitm_calendar=24.450.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.0.100&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.0.0&bitm_location=25.0.0&bitm_mail=25.0.0&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.0.50&bitm_report=24.100.0&bitm_rest=25.100.200&bitm_sale=24.400.0&bitm_search=25.0.0&bitm_security=24.0.100&bitm_sender=24.300.100&bitm_seo=24.600.100&bitm_socialnetwork=24.375.300&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.0.0&bitm_vote=25.0.0&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:21:26 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:21:26 -  - TIME LoadModulesUpdates(request) 0.144 sec
+2025-05-30 17:21:26 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:26 - S - STEP
+2025-05-30 17:21:26 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:21:27 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:27 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:27 -  - loadFile
+2025-05-30 17:21:28 - U - RETURN
+2025-05-30 17:21:28 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:21:28 -  - TIME UnGzipArchive 0.629 sec
+2025-05-30 17:21:29 - CSURUS1 - Run updater '/bitrix/updates/update_m1748614888/socialnetwork/updater24.400.0.php'
+2025-05-30 17:21:29 -  - TIME UpdateStepModules 0.532 sec
+2025-05-30 17:21:29 - UPD_SUCCESS - Updated: socialnetwork (24.400.0)<br><li>Исправлены фразы. <li>Возможность создания новых экстранет-групп была удалена.
+2025-05-30 17:21:29 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:29 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:21:29 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=24.900.0&bitm_bizprocdesigner=24.700.0&bitm_blog=24.300.0&bitm_calendar=24.450.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.0.100&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.0.0&bitm_location=25.0.0&bitm_mail=25.0.0&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.0.50&bitm_report=24.100.0&bitm_rest=25.100.200&bitm_sale=24.400.0&bitm_search=25.0.0&bitm_security=24.0.100&bitm_sender=24.300.100&bitm_seo=24.600.100&bitm_socialnetwork=24.400.0&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.0.0&bitm_vote=25.0.0&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:21:29 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:21:30 -  - TIME LoadModulesUpdates(request) 0.156 sec
+2025-05-30 17:21:30 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:30 - S - STEP
+2025-05-30 17:21:30 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:21:30 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:30 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:30 -  - loadFile
+2025-05-30 17:21:30 - U - RETURN
+2025-05-30 17:21:30 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:21:30 -  - TIME UnGzipArchive 0.003 sec
+2025-05-30 17:21:30 -  - TIME UpdateStepModules 0.006 sec
+2025-05-30 17:21:30 - UPD_SUCCESS - Updated: security (24.0.200)<br><li>Добавлен дополнительный способ проактивной проверки текстов. 
+2025-05-30 17:21:30 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:30 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:21:30 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=24.900.0&bitm_bizprocdesigner=24.700.0&bitm_blog=24.300.0&bitm_calendar=24.450.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.0.100&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.0.0&bitm_location=25.0.0&bitm_mail=25.0.0&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.0.50&bitm_report=24.100.0&bitm_rest=25.100.200&bitm_sale=24.400.0&bitm_search=25.0.0&bitm_security=24.0.200&bitm_sender=24.300.100&bitm_seo=24.600.100&bitm_socialnetwork=24.400.0&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.0.0&bitm_vote=25.0.0&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:21:30 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:21:30 -  - TIME LoadModulesUpdates(request) 0.143 sec
+2025-05-30 17:21:30 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:30 - S - STEP
+2025-05-30 17:21:30 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:21:31 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:31 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:31 -  - loadFile
+2025-05-30 17:21:31 - U - RETURN
+2025-05-30 17:21:31 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:21:31 -  - TIME UnGzipArchive 0.035 sec
+2025-05-30 17:21:31 - CSURUS1 - Run updater '/bitrix/updates/update_m1748614891/bizproc/updater25.0.0.php'
+2025-05-30 17:21:31 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614891/bizproc/updater25.0.0.php': CopyFiles(install/activities, activities)
+2025-05-30 17:21:31 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614891/bizproc/updater25.0.0.php': CopyFiles(install/components, components)
+2025-05-30 17:21:31 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614891/bizproc/updater25.0.0.php': CopyFiles(install/js, js)
+2025-05-30 17:21:31 -  - TIME UpdateStepModules 0.137 sec
+2025-05-30 17:21:31 - UPD_SUCCESS - Updated: bizproc (25.0.0)<br><li>Добавлено статическое кеширование для получения статусов документа в списках, что улучшает производительность. <li>Оптимизировано динамическое выполнение агента CBPTrackingService::ClearOldAgent() в бизнес-процессах. <li>Улучшена совместимость с PHP 8 и производительность.
+2025-05-30 17:21:31 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:31 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:21:31 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=25.0.0&bitm_bizprocdesigner=24.700.0&bitm_blog=24.300.0&bitm_calendar=24.450.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.0.100&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.0.0&bitm_location=25.0.0&bitm_mail=25.0.0&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.0.50&bitm_report=24.100.0&bitm_rest=25.100.200&bitm_sale=24.400.0&bitm_search=25.0.0&bitm_security=24.0.200&bitm_sender=24.300.100&bitm_seo=24.600.100&bitm_socialnetwork=24.400.0&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.0.0&bitm_vote=25.0.0&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:21:31 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:21:31 -  - TIME LoadModulesUpdates(request) 0.145 sec
+2025-05-30 17:21:31 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:31 - S - STEP
+2025-05-30 17:21:31 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:21:32 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:32 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:32 -  - loadFile
+2025-05-30 17:21:32 - U - RETURN
+2025-05-30 17:21:32 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:21:32 -  - TIME UnGzipArchive 0.004 sec
+2025-05-30 17:21:32 - CSURUS1 - Run updater '/bitrix/updates/update_m1748614892/bizproc/updater25.0.100.php'
+2025-05-30 17:21:32 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614892/bizproc/updater25.0.100.php': CopyFiles(install/components, components)
+2025-05-30 17:21:32 -  - TIME UpdateStepModules 0.01 sec
+2025-05-30 17:21:32 - UPD_SUCCESS - Updated: bizproc (25.0.100)<br><li>Исправлена ошибка двойного открытия слайдера с заданием бизнес-процесса в живой ленте. 
+2025-05-30 17:21:32 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:32 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:21:32 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=25.0.100&bitm_bizprocdesigner=24.700.0&bitm_blog=24.300.0&bitm_calendar=24.450.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.0.100&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.0.0&bitm_location=25.0.0&bitm_mail=25.0.0&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.0.50&bitm_report=24.100.0&bitm_rest=25.100.200&bitm_sale=24.400.0&bitm_search=25.0.0&bitm_security=24.0.200&bitm_sender=24.300.100&bitm_seo=24.600.100&bitm_socialnetwork=24.400.0&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.0.0&bitm_vote=25.0.0&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:21:32 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:21:32 -  - TIME LoadModulesUpdates(request) 0.123 sec
+2025-05-30 17:21:32 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:32 - S - STEP
+2025-05-30 17:21:32 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:21:32 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:32 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:32 -  - loadFile
+2025-05-30 17:21:33 - U - RETURN
+2025-05-30 17:21:33 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:21:33 -  - TIME UnGzipArchive 0.005 sec
+2025-05-30 17:21:33 -  - TIME UpdateStepModules 0.01 sec
+2025-05-30 17:21:33 - UPD_SUCCESS - Updated: seo (24.700.0)<br><li>Добавлена поддержка платёжной системы Т-Бизнес.
+2025-05-30 17:21:33 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:33 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:21:33 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=25.0.100&bitm_bizprocdesigner=24.700.0&bitm_blog=24.300.0&bitm_calendar=24.450.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.0.100&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.0.0&bitm_location=25.0.0&bitm_mail=25.0.0&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.0.50&bitm_report=24.100.0&bitm_rest=25.100.200&bitm_sale=24.400.0&bitm_search=25.0.0&bitm_security=24.0.200&bitm_sender=24.300.100&bitm_seo=24.700.0&bitm_socialnetwork=24.400.0&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.0.0&bitm_vote=25.0.0&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:21:33 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:21:33 -  - TIME LoadModulesUpdates(request) 0.166 sec
+2025-05-30 17:21:33 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:33 - S - STEP
+2025-05-30 17:21:33 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:21:33 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:33 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:33 -  - loadFile
+2025-05-30 17:21:34 - U - RETURN
+2025-05-30 17:21:34 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:21:34 -  - TIME UnGzipArchive 0.898 sec
+2025-05-30 17:21:35 - CSURUS1 - Run updater '/bitrix/updates/update_m1748614894/sale/updater25.0.0/index.php'
+2025-05-30 17:21:35 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614894/sale/updater25.0.0/index.php': CopyFiles(install/components, components)
+2025-05-30 17:21:36 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614894/sale/updater25.0.0/index.php': CopyFiles(install/gadgets, gadgets)
+2025-05-30 17:21:36 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614894/sale/updater25.0.0/index.php': CopyFiles(install/js, js)
+2025-05-30 17:21:36 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614894/sale/updater25.0.0/index.php': CopyFiles(install/wizards, wizards)
+2025-05-30 17:21:36 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614894/sale/updater25.0.0/index.php': CopyFiles(install/images, images/sale)
+2025-05-30 17:21:40 -  - TIME UpdateStepModules 5.404 sec
+2025-05-30 17:21:40 - UPD_SUCCESS - Updated: sale (25.0.0)<br><li>Добавлен новый способ оплаты Т-Бизнес.
+2025-05-30 17:21:41 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:41 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:21:41 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=25.0.100&bitm_bizprocdesigner=24.700.0&bitm_blog=24.300.0&bitm_calendar=24.450.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.0.100&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.0.0&bitm_location=25.0.0&bitm_mail=25.0.0&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.0.50&bitm_report=24.100.0&bitm_rest=25.100.200&bitm_sale=25.0.0&bitm_search=25.0.0&bitm_security=24.0.200&bitm_sender=24.300.100&bitm_seo=24.700.0&bitm_socialnetwork=24.400.0&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.0.0&bitm_vote=25.0.0&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:21:41 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:21:41 -  - TIME LoadModulesUpdates(request) 0.178 sec
+2025-05-30 17:21:41 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:41 - S - STEP
+2025-05-30 17:21:41 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:21:41 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:41 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:41 -  - loadFile
+2025-05-30 17:21:41 - U - RETURN
+2025-05-30 17:21:41 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:21:41 -  - TIME UnGzipArchive 0.003 sec
+2025-05-30 17:21:41 -  - TIME UpdateStepModules 0.005 sec
+2025-05-30 17:21:41 - UPD_SUCCESS - Updated: sale (25.0.100)<br><li>Терялась информация о товарах, входящих в комплект, при добавлении комплекта в корзину. 
+2025-05-30 17:21:41 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:41 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:21:41 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=25.0.100&bitm_bizprocdesigner=24.700.0&bitm_blog=24.300.0&bitm_calendar=24.450.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.0.100&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.0.0&bitm_location=25.0.0&bitm_mail=25.0.0&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.0.50&bitm_report=24.100.0&bitm_rest=25.100.200&bitm_sale=25.0.100&bitm_search=25.0.0&bitm_security=24.0.200&bitm_sender=24.300.100&bitm_seo=24.700.0&bitm_socialnetwork=24.400.0&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.0.0&bitm_vote=25.0.0&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:21:41 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:21:42 -  - TIME LoadModulesUpdates(request) 0.142 sec
+2025-05-30 17:21:42 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:42 - S - STEP
+2025-05-30 17:21:42 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:21:42 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:42 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:42 -  - loadFile
+2025-05-30 17:21:42 - U - RETURN
+2025-05-30 17:21:42 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:21:42 -  - TIME UnGzipArchive 0.013 sec
+2025-05-30 17:21:42 - CSURUS1 - Run updater '/bitrix/updates/update_m1748614902/bizprocdesigner/updater25.0.0.php'
+2025-05-30 17:21:42 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614902/bizprocdesigner/updater25.0.0.php': CopyFiles(install/components, components)
+2025-05-30 17:21:42 -  - TIME UpdateStepModules 0.028 sec
+2025-05-30 17:21:42 - UPD_SUCCESS - Updated: bizprocdesigner (25.0.0)<br><li>Добавлен казахский язык. <li>Исправлены некоторые фразы в локализациях.
+2025-05-30 17:21:42 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:42 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:21:42 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=25.0.100&bitm_bizprocdesigner=25.0.0&bitm_blog=24.300.0&bitm_calendar=24.450.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.0.100&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.0.0&bitm_location=25.0.0&bitm_mail=25.0.0&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.0.50&bitm_report=24.100.0&bitm_rest=25.100.200&bitm_sale=25.0.100&bitm_search=25.0.0&bitm_security=24.0.200&bitm_sender=24.300.100&bitm_seo=24.700.0&bitm_socialnetwork=24.400.0&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.0.0&bitm_vote=25.0.0&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:21:42 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:21:43 -  - TIME LoadModulesUpdates(request) 0.193 sec
+2025-05-30 17:21:43 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:43 - S - STEP
+2025-05-30 17:21:43 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:21:43 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:43 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:43 -  - loadFile
+2025-05-30 17:21:43 - U - RETURN
+2025-05-30 17:21:43 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:21:43 -  - TIME UnGzipArchive 0.129 sec
+2025-05-30 17:21:43 - CSURUS1 - Run updater '/bitrix/updates/update_m1748614903/lists/updater25.100.0.php'
+2025-05-30 17:21:43 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614903/lists/updater25.100.0.php': CopyFiles(install/activities, activities)
+2025-05-30 17:21:43 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614903/lists/updater25.100.0.php': CopyFiles(install/components, components)
+2025-05-30 17:21:44 -  - TIME UpdateStepModules 0.409 sec
+2025-05-30 17:21:44 - UPD_SUCCESS - Updated: lists (25.100.0)<br><li>Добавлено статическое кеширование в BizprocDocument::GetAllowableUserGroups для повышения производительности. <li>Внесены правки для повышения эффективности и корректного расчета среднего времени в бизнес-процессах. <li>Добавлен казахский язык. <li>Оптимизирован выбор только используемых полей документа в бизнес-процессах для повышения производительности.
+2025-05-30 17:21:44 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:44 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:21:44 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=25.0.100&bitm_bizprocdesigner=25.0.0&bitm_blog=24.300.0&bitm_calendar=24.450.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.0.100&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.100.0&bitm_location=25.0.0&bitm_mail=25.0.0&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.0.50&bitm_report=24.100.0&bitm_rest=25.100.200&bitm_sale=25.0.100&bitm_search=25.0.0&bitm_security=24.0.200&bitm_sender=24.300.100&bitm_seo=24.700.0&bitm_socialnetwork=24.400.0&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.0.0&bitm_vote=25.0.0&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:21:44 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:21:44 -  - TIME LoadModulesUpdates(request) 0.149 sec
+2025-05-30 17:21:44 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:44 - S - STEP
+2025-05-30 17:21:44 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:21:44 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:44 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:44 -  - loadFile
+2025-05-30 17:21:45 - U - RETURN
+2025-05-30 17:21:45 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:21:45 -  - TIME UnGzipArchive 0.127 sec
+2025-05-30 17:21:45 - CSURUS1 - Run updater '/bitrix/updates/update_m1748614905/calendar/updater24.500.0.php'
+2025-05-30 17:21:45 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614905/calendar/updater24.500.0.php': CopyFiles(install/components, components)
+2025-05-30 17:21:45 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614905/calendar/updater24.500.0.php': CopyFiles(install/js, js)
+2025-05-30 17:21:45 -  - TIME UpdateStepModules 0.388 sec
+2025-05-30 17:21:46 - UPD_SUCCESS - Updated: calendar (24.500.0)<br><li>Чат по событию создается без отказавшихся участников. <li>Улучшение производительности модуля. <li>Исправление найденных проблем. <li>Разработчикам: REST: Указание значения в поле UF_CRM_CAL_EVENT метода calendar.event.add. <li>Разработчикам: Возможность изменять часть событий из цепочки повторяющихся через REST API. <li>Разработчикам: REST: Исправление найденных ошибок в работе методов. 
+2025-05-30 17:21:46 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:46 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:21:46 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=25.0.100&bitm_bizprocdesigner=25.0.0&bitm_blog=24.300.0&bitm_calendar=24.500.0&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.0.100&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.100.0&bitm_location=25.0.0&bitm_mail=25.0.0&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.0.50&bitm_report=24.100.0&bitm_rest=25.100.200&bitm_sale=25.0.100&bitm_search=25.0.0&bitm_security=24.0.200&bitm_sender=24.300.100&bitm_seo=24.700.0&bitm_socialnetwork=24.400.0&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.0.0&bitm_vote=25.0.0&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:21:46 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:21:46 -  - TIME LoadModulesUpdates(request) 0.128 sec
+2025-05-30 17:21:46 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:46 - S - STEP
+2025-05-30 17:21:46 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:21:46 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:46 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:46 -  - loadFile
+2025-05-30 17:21:46 - U - RETURN
+2025-05-30 17:21:46 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:21:46 -  - TIME UnGzipArchive 0.007 sec
+2025-05-30 17:21:46 -  - TIME UpdateStepModules 0.011 sec
+2025-05-30 17:21:46 - UPD_SUCCESS - Updated: calendar (24.500.100)<br><li>Исправлено открытие рекурсивных событий на конкретную дату для организатора. <li>Исправлена выборка событий в REST-методе получения списка бронирований, если указан параметр типа ресурса. 
+2025-05-30 17:21:47 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:47 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:21:47 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=25.0.100&bitm_bizprocdesigner=25.0.0&bitm_blog=24.300.0&bitm_calendar=24.500.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.0.100&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.100.0&bitm_location=25.0.0&bitm_mail=25.0.0&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.0.50&bitm_report=24.100.0&bitm_rest=25.100.200&bitm_sale=25.0.100&bitm_search=25.0.0&bitm_security=24.0.200&bitm_sender=24.300.100&bitm_seo=24.700.0&bitm_socialnetwork=24.400.0&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.0.0&bitm_vote=25.0.0&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:21:47 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:21:47 -  - TIME LoadModulesUpdates(request) 0.193 sec
+2025-05-30 17:21:47 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:47 - S - STEP
+2025-05-30 17:21:47 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:21:47 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:47 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:47 -  - loadFile
+2025-05-30 17:21:48 - U - RETURN
+2025-05-30 17:21:48 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:21:48 -  - TIME UnGzipArchive 0.351 sec
+2025-05-30 17:21:49 - CSURUS1 - Run updater '/bitrix/updates/update_m1748614908/im/updater25.100.0.php'
+2025-05-30 17:21:50 -  - TIME UpdateStepModules 1.052 sec
+2025-05-30 17:21:50 - UPD_SUCCESS - Updated: im (25.100.0)<br><li>Добавлена возможность множественного удаления сообщений в чате. <li>Добавлена индикация действий собеседника - загрузка файлов и запись голосовых сообщений. <li>Изменено именование чата с самим собой, теперь он называется \"Заметки\". <li>Добавлена группировка по чату при просмотре файлов в полноэкранном режиме. <li>Доработаны почтовые события чата для корректного определения вложений. <li>Исправлена логика отправки сообщения о создании задачи/встречи на базе сообщений чата. <li>Исправлено исчезновение черновика из поля ввода при повторном входе в чат.
+2025-05-30 17:21:50 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:50 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:21:50 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=25.0.100&bitm_bizprocdesigner=25.0.0&bitm_blog=24.300.0&bitm_calendar=24.500.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.100.0&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.100.0&bitm_location=25.0.0&bitm_mail=25.0.0&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.0.50&bitm_report=24.100.0&bitm_rest=25.100.200&bitm_sale=25.0.100&bitm_search=25.0.0&bitm_security=24.0.200&bitm_sender=24.300.100&bitm_seo=24.700.0&bitm_socialnetwork=24.400.0&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.0.0&bitm_vote=25.0.0&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:21:50 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:21:50 -  - TIME LoadModulesUpdates(request) 0.136 sec
+2025-05-30 17:21:50 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:50 - S - STEP
+2025-05-30 17:21:50 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:21:50 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:50 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:50 -  - loadFile
+2025-05-30 17:21:51 - U - RETURN
+2025-05-30 17:21:51 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:21:51 -  - TIME UnGzipArchive 0.003 sec
+2025-05-30 17:21:51 -  - TIME UpdateStepModules 0.005 sec
+2025-05-30 17:21:51 - UPD_SUCCESS - Updated: pull (25.50.0)<br><li>Добавлена возможность получать из модуля несколько раздельных счётчиков, сумма которых отправляется в мобильное приложение. 
+2025-05-30 17:21:51 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:51 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:21:51 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=25.0.100&bitm_bizprocdesigner=25.0.0&bitm_blog=24.300.0&bitm_calendar=24.500.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.100.0&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.100.0&bitm_location=25.0.0&bitm_mail=25.0.0&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.50.0&bitm_report=24.100.0&bitm_rest=25.100.200&bitm_sale=25.0.100&bitm_search=25.0.0&bitm_security=24.0.200&bitm_sender=24.300.100&bitm_seo=24.700.0&bitm_socialnetwork=24.400.0&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.0.0&bitm_vote=25.0.0&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:21:51 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:21:51 -  - TIME LoadModulesUpdates(request) 0.173 sec
+2025-05-30 17:21:51 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:51 - S - STEP
+2025-05-30 17:21:51 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:21:51 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:51 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:51 -  - loadFile
+2025-05-30 17:21:52 - U - RETURN
+2025-05-30 17:21:52 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:21:52 -  - TIME UnGzipArchive 0.225 sec
+2025-05-30 17:21:52 - CSURUS1 - Run updater '/bitrix/updates/update_m1748614912/pull/updater25.100.0.php'
+2025-05-30 17:21:52 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614912/pull/updater25.100.0.php': CopyFiles(install/js, js)
+2025-05-30 17:21:52 -  - TIME UpdateStepModules 0.188 sec
+2025-05-30 17:21:52 - UPD_SUCCESS - Updated: pull (25.100.0)<br><li>Улучшена производительность при продлении каналов. <li>В запросах на подключение к push-серверу и публикацию сообщений теперь передается hostname портала. 
+2025-05-30 17:21:53 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:53 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:21:53 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=25.0.100&bitm_bizprocdesigner=25.0.0&bitm_blog=24.300.0&bitm_calendar=24.500.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.100.0&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.100.0&bitm_location=25.0.0&bitm_mail=25.0.0&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.100.0&bitm_report=24.100.0&bitm_rest=25.100.200&bitm_sale=25.0.100&bitm_search=25.0.0&bitm_security=24.0.200&bitm_sender=24.300.100&bitm_seo=24.700.0&bitm_socialnetwork=24.400.0&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.0.0&bitm_vote=25.0.0&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:21:53 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:21:53 -  - TIME LoadModulesUpdates(request) 0.147 sec
+2025-05-30 17:21:53 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:53 - S - STEP
+2025-05-30 17:21:53 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:21:53 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:53 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:53 -  - loadFile
+2025-05-30 17:21:53 - U - RETURN
+2025-05-30 17:21:53 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:21:54 -  - TIME UnGzipArchive 0.217 sec
+2025-05-30 17:21:54 - CSURUS1 - Run updater '/bitrix/updates/update_m1748614913/pull/updater25.200.0.php'
+2025-05-30 17:21:54 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614913/pull/updater25.200.0.php': CopyFiles(install/js, js)
+2025-05-30 17:21:54 -  - TIME UpdateStepModules 0.509 sec
+2025-05-30 17:21:54 - UPD_SUCCESS - Updated: pull (25.200.0)<br><li>Улучшена производительность. <li>Разработчикам: увеличен максимальный размер payload уведомления для Apple-устройств до 4КБ.
+2025-05-30 17:21:54 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:54 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:21:54 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=25.0.100&bitm_bizprocdesigner=25.0.0&bitm_blog=24.300.0&bitm_calendar=24.500.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.100.0&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.100.0&bitm_location=25.0.0&bitm_mail=25.0.0&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.200.0&bitm_report=24.100.0&bitm_rest=25.100.200&bitm_sale=25.0.100&bitm_search=25.0.0&bitm_security=24.0.200&bitm_sender=24.300.100&bitm_seo=24.700.0&bitm_socialnetwork=24.400.0&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.0.0&bitm_vote=25.0.0&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:21:54 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:21:55 -  - TIME LoadModulesUpdates(request) 0.168 sec
+2025-05-30 17:21:55 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:55 - S - STEP
+2025-05-30 17:21:55 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:21:55 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:55 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:55 -  - loadFile
+2025-05-30 17:21:55 - U - RETURN
+2025-05-30 17:21:55 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:21:55 -  - TIME UnGzipArchive 0.109 sec
+2025-05-30 17:21:56 - CSURUS1 - Run updater '/bitrix/updates/update_m1748614915/rest/updater25.200.0.php'
+2025-05-30 17:21:56 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614915/rest/updater25.200.0.php': CopyFiles(install/components, components)
+2025-05-30 17:21:56 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614915/rest/updater25.200.0.php': CopyFiles(install/js, js)
+2025-05-30 17:21:59 -  - TIME UpdateStepModules 2.791 sec
+2025-05-30 17:21:59 - UPD_SUCCESS - Updated: rest (25.200.0)<br><li>Добавлен язык kz. <li>Улучшена совместимость с PostgreSQL <li>Переименование Маркет в Маркетплейс. <li>Улучшена производительность модуля. <li>Исправлены ошибки в интерфейсе.
+2025-05-30 17:21:59 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:59 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:21:59 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=25.0.100&bitm_bizprocdesigner=25.0.0&bitm_blog=24.300.0&bitm_calendar=24.500.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.100.0&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.100.0&bitm_location=25.0.0&bitm_mail=25.0.0&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.200.0&bitm_report=24.100.0&bitm_rest=25.200.0&bitm_sale=25.0.100&bitm_search=25.0.0&bitm_security=24.0.200&bitm_sender=24.300.100&bitm_seo=24.700.0&bitm_socialnetwork=24.400.0&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.0.0&bitm_vote=25.0.0&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:21:59 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:21:59 -  - TIME LoadModulesUpdates(request) 0.157 sec
+2025-05-30 17:21:59 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:59 - S - STEP
+2025-05-30 17:21:59 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:21:59 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:21:59 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:21:59 -  - loadFile
+2025-05-30 17:21:59 - U - RETURN
+2025-05-30 17:21:59 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:21:59 -  - TIME UnGzipArchive 0.008 sec
+2025-05-30 17:21:59 -  - TIME UpdateStepModules 0.015 sec
+2025-05-30 17:21:59 - UPD_SUCCESS - Updated: rest (25.200.100)<br><li>Исправлена фраза в уведомлении об окончании подписки на Маркетплейс.
+2025-05-30 17:22:00 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:22:00 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:22:00 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=25.0.100&bitm_bizprocdesigner=25.0.0&bitm_blog=24.300.0&bitm_calendar=24.500.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.100.0&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.100.0&bitm_location=25.0.0&bitm_mail=25.0.0&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.200.0&bitm_report=24.100.0&bitm_rest=25.200.100&bitm_sale=25.0.100&bitm_search=25.0.0&bitm_security=24.0.200&bitm_sender=24.300.100&bitm_seo=24.700.0&bitm_socialnetwork=24.400.0&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.0.0&bitm_vote=25.0.0&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:22:00 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:22:00 -  - TIME LoadModulesUpdates(request) 0.159 sec
+2025-05-30 17:22:00 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:22:00 - S - STEP
+2025-05-30 17:22:00 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:22:00 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:22:00 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:22:00 -  - loadFile
+2025-05-30 17:22:01 - U - RETURN
+2025-05-30 17:22:01 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:22:01 -  - TIME UnGzipArchive 0.015 sec
+2025-05-30 17:22:01 - CSURUS1 - Run updater '/bitrix/updates/update_m1748614921/rest/updater25.300.0.php'
+2025-05-30 17:22:01 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614921/rest/updater25.300.0.php': CopyFiles(install/components, components)
+2025-05-30 17:22:01 -  - TIME UpdateStepModules 0.037 sec
+2025-05-30 17:22:01 - UPD_SUCCESS - Updated: rest (25.300.0)<br><li>Добавлена возможность запрета сортировки по полю. <li>Добавлена возможность запрета фильтрации по полю. <li>Добавлен аттрибут \"только для выборки\" и фильтрация в методах обработки полей фильтра и сортировки.
+2025-05-30 17:22:01 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:22:01 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:22:01 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=25.0.100&bitm_bizprocdesigner=25.0.0&bitm_blog=24.300.0&bitm_calendar=24.500.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.100.0&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.100.0&bitm_location=25.0.0&bitm_mail=25.0.0&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.200.0&bitm_report=24.100.0&bitm_rest=25.300.0&bitm_sale=25.0.100&bitm_search=25.0.0&bitm_security=24.0.200&bitm_sender=24.300.100&bitm_seo=24.700.0&bitm_socialnetwork=24.400.0&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.0.0&bitm_vote=25.0.0&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:22:01 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:22:02 -  - TIME LoadModulesUpdates(request) 0.173 sec
+2025-05-30 17:22:02 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:22:02 - S - STEP
+2025-05-30 17:22:02 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:22:02 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:22:02 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:22:02 -  - loadFile
+2025-05-30 17:22:02 - U - RETURN
+2025-05-30 17:22:02 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:22:02 -  - TIME UnGzipArchive 0.01 sec
+2025-05-30 17:22:02 - CSURUS1 - Run updater '/bitrix/updates/update_m1748614922/ui/updater25.50.0.php'
+2025-05-30 17:22:02 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614922/ui/updater25.50.0.php': CopyFiles(install/js, js)
+2025-05-30 17:22:02 -  - TIME UpdateStepModules 0.027 sec
+2025-05-30 17:22:02 - UPD_SUCCESS - Updated: ui (25.50.0)<br><li>Улучшена совместимость для множественного выбора в обновлённом интерфейсе настройки прав доступа.
+2025-05-30 17:22:02 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:22:02 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:22:02 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=25.0.100&bitm_bizprocdesigner=25.0.0&bitm_blog=24.300.0&bitm_calendar=24.500.100&bitm_catalog=24.400.100&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.100.0&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.100.0&bitm_location=25.0.0&bitm_mail=25.0.0&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.200.0&bitm_report=24.100.0&bitm_rest=25.300.0&bitm_sale=25.0.100&bitm_search=25.0.0&bitm_security=24.0.200&bitm_sender=24.300.100&bitm_seo=24.700.0&bitm_socialnetwork=24.400.0&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.50.0&bitm_vote=25.0.0&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:22:02 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:22:02 -  - TIME LoadModulesUpdates(request) 0.141 sec
+2025-05-30 17:22:02 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:22:02 - S - STEP
+2025-05-30 17:22:02 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:22:03 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:22:03 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:22:03 -  - loadFile
+2025-05-30 17:22:03 - U - RETURN
+2025-05-30 17:22:03 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:22:03 -  - TIME UnGzipArchive 0.356 sec
+2025-05-30 17:22:04 - CSURUS1 - Run updater '/bitrix/updates/update_m1748614923/catalog/updater25.0.0/index.php'
+2025-05-30 17:22:04 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614923/catalog/updater25.0.0/index.php': CopyFiles(install/components, components)
+2025-05-30 17:22:04 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614923/catalog/updater25.0.0/index.php': CopyFiles(install/js, js)
+2025-05-30 17:22:05 -  - TIME UpdateStepModules 0.975 sec
+2025-05-30 17:22:05 - UPD_SUCCESS - Updated: catalog (25.0.0)<br><li>Улучшен внешний вид интерфейса настройки прав доступа.
+2025-05-30 17:22:05 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:22:05 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:22:05 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=25.0.100&bitm_bizprocdesigner=25.0.0&bitm_blog=24.300.0&bitm_calendar=24.500.100&bitm_catalog=25.0.0&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.100.0&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.100.0&bitm_location=25.0.0&bitm_mail=25.0.0&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.200.0&bitm_report=24.100.0&bitm_rest=25.300.0&bitm_sale=25.0.100&bitm_search=25.0.0&bitm_security=24.0.200&bitm_sender=24.300.100&bitm_seo=24.700.0&bitm_socialnetwork=24.400.0&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.50.0&bitm_vote=25.0.0&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:22:05 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:22:05 -  - TIME LoadModulesUpdates(request) 0.148 sec
+2025-05-30 17:22:05 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:22:05 - S - STEP
+2025-05-30 17:22:05 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:22:05 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:22:05 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:22:05 -  - loadFile
+2025-05-30 17:22:05 - U - RETURN
+2025-05-30 17:22:05 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:22:05 -  - TIME UnGzipArchive 0.054 sec
+2025-05-30 17:22:05 - CSURUS1 - Run updater '/bitrix/updates/update_m1748614925/ui/updater25.50.100.php'
+2025-05-30 17:22:05 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614925/ui/updater25.50.100.php': CopyFiles(install/js, js)
+2025-05-30 17:22:06 -  - TIME UpdateStepModules 0.132 sec
+2025-05-30 17:22:06 - UPD_SUCCESS - Updated: ui (25.50.100)<br><li>Обновлен компонент шторок.
+2025-05-30 17:22:06 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:22:06 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:22:06 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=25.0.100&bitm_bizprocdesigner=25.0.0&bitm_blog=24.300.0&bitm_calendar=24.500.100&bitm_catalog=25.0.0&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.100.0&bitm_landing=24.800.0&bitm_learning=24.300.0&bitm_lists=25.100.0&bitm_location=25.0.0&bitm_mail=25.0.0&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.200.0&bitm_report=24.100.0&bitm_rest=25.300.0&bitm_sale=25.0.100&bitm_search=25.0.0&bitm_security=24.0.200&bitm_sender=24.300.100&bitm_seo=24.700.0&bitm_socialnetwork=24.400.0&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.50.100&bitm_vote=25.0.0&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:22:06 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:22:06 -  - TIME LoadModulesUpdates(request) 0.158 sec
+2025-05-30 17:22:06 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:22:06 - S - STEP
+2025-05-30 17:22:06 - LMU01 - LoadModulesUpdates-Step
+2025-05-30 17:22:06 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:22:06 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:22:06 -  - loadFile
+2025-05-30 17:22:06 - U - RETURN
+2025-05-30 17:22:06 -  - exec CUpdateClient::UnGzipArchive
+2025-05-30 17:22:06 -  - TIME UnGzipArchive 0.022 sec
+2025-05-30 17:22:06 - CSURUS1 - Run updater '/bitrix/updates/update_m1748614926/landing/updater24.800.100.php'
+2025-05-30 17:22:06 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1748614926/landing/updater24.800.100.php': CopyFiles(install/js, js)
+2025-05-30 17:22:07 -  - TIME UpdateStepModules 0.08 sec
+2025-05-30 17:22:07 - UPD_SUCCESS - Updated: landing (24.800.100)<br><li>Исправлена ошибка с сообщением про модифицированные файлы.
+2025-05-30 17:22:07 -  - exec CUpdateClient::LoadModulesUpdates
+2025-05-30 17:22:07 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:22:07 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=25.0.100&bitm_bizprocdesigner=25.0.0&bitm_blog=24.300.0&bitm_calendar=24.500.100&bitm_catalog=25.0.0&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.100.0&bitm_landing=24.800.100&bitm_learning=24.300.0&bitm_lists=25.100.0&bitm_location=25.0.0&bitm_mail=25.0.0&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.200.0&bitm_report=24.100.0&bitm_rest=25.300.0&bitm_sale=25.0.100&bitm_search=25.0.0&bitm_security=24.0.200&bitm_sender=24.300.100&bitm_seo=24.700.0&bitm_socialnetwork=24.400.0&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.50.100&bitm_vote=25.0.0&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:22:07 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:22:07 -  - TIME LoadModulesUpdates(request) 0.146 sec
+2025-05-30 17:22:07 -  - exec CUpdateClient::ParseServerData
+2025-05-30 17:22:07 - STEP - Finish - NOUPDATES
+2025-05-30 17:22:07 - STEP - Finish - NOUPDATES
+2025-05-30 17:22:19 -  - exec CUpdateClient::GetUpdatesList
+2025-05-30 17:22:19 -  - exec CUpdateClient::CollectRequestData
+2025-05-30 17:22:19 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=25.100.250&VERSION=25.100.400&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=store&SERVER_NAME=store&CHHB=store&CSAB=127.0.0.1&SUID=606ocodiakt16qslute5ahhjukglz0s1&CANGZIP=Y&CLIENT_PHPVER=8.1.9&stable=Y&mbfo=0&NGINX=Y&SMD=N&rerere=Y&bitm_main=25.100.400&bitm_abtest=24.100.0&bitm_advertising=24.100.0&bitm_b24connector=24.0.0&bitm_bitrixcloud=24.100.0&bitm_bizproc=25.0.100&bitm_bizprocdesigner=25.0.0&bitm_blog=24.300.0&bitm_calendar=24.500.100&bitm_catalog=25.0.0&bitm_clouds=25.0.0&bitm_conversion=24.0.0&bitm_currency=24.100.0&bitm_fileman=24.500.100&bitm_form=24.0.0&bitm_forum=25.200.0&bitm_highloadblock=24.100.0&bitm_iblock=24.300.200&bitm_idea=24.100.0&bitm_im=25.100.0&bitm_landing=24.800.100&bitm_learning=24.300.0&bitm_lists=25.100.0&bitm_location=25.0.0&bitm_mail=25.0.0&bitm_messageservice=24.900.0&bitm_mobileapp=24.200.0&bitm_perfmon=24.200.0&bitm_photogallery=25.0.0&bitm_pull=25.200.0&bitm_report=24.100.0&bitm_rest=25.300.0&bitm_sale=25.0.100&bitm_search=25.0.0&bitm_security=24.0.200&bitm_sender=24.300.100&bitm_seo=24.700.0&bitm_socialnetwork=24.400.0&bitm_socialservices=24.100.100&bitm_statistic=24.100.0&bitm_storeassist=24.0.0&bitm_subscribe=24.0.0&bitm_support=24.100.0&bitm_translate=25.0.0&bitm_ui=25.50.100&bitm_vote=25.0.0&bitm_webservice=24.100.0&bitm_wiki=24.100.0&bitm_workflow=24.100.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-Y
+2025-05-30 17:22:19 -  - exec CUpdateClient::GetHTTPPage
+2025-05-30 17:22:19 -  - TIME GetUpdatesList(request) 0.161 sec
+2025-05-30 17:22:20 -  - exec CUpdateClient::ParseServerData

@@ -1,0 +1,5 @@
+<?php
+$MESS["REST_CONFIGURATION_ACTION_TITLE_EXPORT"] = "Exportieren";
+$MESS["REST_CONFIGURATION_ACTION_TITLE_IMPORT"] = "Importieren";
+$MESS["REST_CONFIGURATION_ACTION_TITLE_LOAD_MARKETPLACE_2"] = "Ihr CRM Losungspreset im Bitrix24 Market veroffentlichen";
+$MESS["REST_CONFIGURATION_ACTION_TITLE_LOAD_MARKETPLACE_2_MSGVER_1"] = "Ihr CRM Losungspreset im Bitrix24 Market veroffentlichen";

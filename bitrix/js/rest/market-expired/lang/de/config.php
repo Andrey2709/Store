@@ -1,0 +1,19 @@
+<?php
+$MESS["REST_MARKET_EXPIRED_POPUP_BUTTON_DEMO"] = "15-Tage-Testversion aktivieren";
+$MESS["REST_MARKET_EXPIRED_POPUP_BUTTON_HIDE"] = "Ich akzeptiere die Nutzungsbedingungen.";
+$MESS["REST_MARKET_EXPIRED_POPUP_BUTTON_SUBSCRIBE"] = "Abonnieren";
+$MESS["REST_MARKET_EXPIRED_POPUP_DESCRIPTION_1"] = "Vor über 10 Jahren haben wir den Bitrix24 Anwendungskatalog eingeführt. Heute nutzen und genießen viele unserer Kunden Integrationen mit Banken, Telefonie, Lagern und anderen Diensten. Dies sind wichtige Geschäftsinstrumente, die für die Arbeit aller Beteiligten unerlässlich sind. Aus diesem Grund leiten wir unsere Entwickler weiterhin bei der Erstellung nützlicher Anwendungen an, die auf dem Bitrix24 Market verfügbar sind.";
+$MESS["REST_MARKET_EXPIRED_POPUP_DESCRIPTION_2"] = "Ein stetiges Wachstum erfordert jedoch eine starke und kontinuierliche Unterstützung der Ressourcen. Derzeit machen Anwendungen und externe Integrationen 40 % der Belastung unserer Infrastruktur aus, und deren Support und Wartung werden immer teurer. Aufgrund steigender Kosten können wir keine kostenlosen Integrationen mehr anbieten. Wir sind jedoch der Meinung, dass es unfair ist, die Preise für Kunden zu erhöhen, die keine Integrationen verwenden.";
+$MESS["REST_MARKET_EXPIRED_POPUP_DESCRIPTION_3"] = "Die effektivste Lösung besteht darin, das Abonnement für  gesamten Market einzuführen. Mit dem neuen Abonnement können Sie jede der 4000+ Anwendungen aus über 100 Kategorien in unserem Katalog ohne Einschränkungen installieren. Ein aktives Abonnement wird zu einer zwingenden Voraussetzung für den Zugriff auf den Bitrix24 Market und alle Integrationen von Drittanbietern, einschließlich der REST API und der Integrationsmodule.";
+$MESS["REST_MARKET_EXPIRED_POPUP_DESCRIPTION_FINAL"] = "Wenn Sie kein Abonnement haben, werden Ihre Bitrix24 Integrationen deaktiviert.";
+$MESS["REST_MARKET_EXPIRED_POPUP_DETAILS"] = "Mehr";
+$MESS["REST_MARKET_EXPIRED_POPUP_DISCOUNT_DESCRIPTION"] = "Sie können jetzt mit einem Rabatt von 50 % abonnieren, entweder monatlich oder jährlich[/white-span]. Infolgedessen werden die Kosten von Bitrix24 um ca. 15-20% steigen. Dies steht im Einklang mit dem allgemeinen Marktpreisanstieg, bietet aber auch Zugang zu Tausenden von Anwendungen und Integrationen.";
+$MESS["REST_MARKET_EXPIRED_POPUP_FINAL_DESCRIPTION"] = "Um wieder Zugriff auf die Anwendungen zu erhalten, benötigen Sie ein Abonnement.";
+$MESS["REST_MARKET_EXPIRED_POPUP_FINAL_DESCRIPTION_DEMO"] = "Um den Zugriff auf Anwendungen wiederherzustellen, können Sie ein kostenloses 15-Tage-Testabonnement aktivieren und sich während dieses Zeitraums für das kommerzielle Abonnement anmelden.";
+$MESS["REST_MARKET_EXPIRED_POPUP_MARKET_LIST_LINK"] = "Alle (#COUNT#)";
+$MESS["REST_MARKET_EXPIRED_POPUP_MARKET_LIST_TITLE_APPS"] = "Ihre Anwendungen";
+$MESS["REST_MARKET_EXPIRED_POPUP_MARKET_LIST_TITLE_INTEGRATIONS"] = "Ihre Anwendungen";
+$MESS["REST_MARKET_EXPIRED_POPUP_TITLE_FINAL"] = "Ihre Bitrix24 Integrationen sind nicht verfügbar";
+$MESS["REST_MARKET_EXPIRED_POPUP_TITLE_WARNING"] = "Wichtige Ankündigung über Bitrix24 Marker Service";
+$MESS["REST_MARKET_EXPIRED_POPUP_WARNING_DESCRIPTION"] = "Wenn Sie bereits Integrationen eingerichtet haben, aber kein Abonnement haben, funktionieren sie ab #DATE# nicht mehr. Um Unterbrechungen zu vermeiden, können Sie sich jetzt anmelden.";
+$MESS["REST_MARKET_EXPIRED_POPUP_WARNING_DESCRIPTION_DEMO"] = "Wenn Sie bereits Integrationen eingerichtet haben, aber kein Abonnement haben, funktionieren sie ab #DATE# nicht mehr. Um Unterbrechungen zu vermeiden, können Sie eine kostenlose 15-Tage-Testversion aktivieren und sich während dieser Zeit anmelden.";
