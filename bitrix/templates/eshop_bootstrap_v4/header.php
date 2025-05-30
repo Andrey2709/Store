@@ -122,25 +122,26 @@ $curPage = $APPLICATION->GetCurPage(true);
 			<div class="row mb-4 d-none d-md-block">
 				<div class="col">
 					<?$APPLICATION->IncludeComponent(
-						"bitrix:menu",
-						"bootstrap_v4",
-						array(
-							"ROOT_MENU_TYPE" => "left",
-							"MENU_CACHE_TYPE" => "A",
-							"MENU_CACHE_TIME" => "36000000",
-							"MENU_CACHE_USE_GROUPS" => "Y",
-							"MENU_THEME" => "site",
-							"CACHE_SELECTED_ITEMS" => "N",
-							"MENU_CACHE_GET_VARS" => array(),
-							"MAX_LEVEL" => "3",
-							"CHILD_MENU_TYPE" => "left",
-							"USE_EXT" => "Y",
-							"DELAY" => "N",
-							"ALLOW_MULTI_SELECT" => "N",
-							"COMPONENT_TEMPLATE" => "bootstrap_v4"
-						),
-						false
-					);?>
+	"bitrix:menu", 
+	"bootstrap_v4", 
+	array(
+		"ROOT_MENU_TYPE" => "left",
+		"MENU_CACHE_TYPE" => "A",
+		"MENU_CACHE_TIME" => "36000000",
+		"MENU_CACHE_USE_GROUPS" => "Y",
+		"MENU_THEME" => "site",
+		"CACHE_SELECTED_ITEMS" => "N",
+		"MENU_CACHE_GET_VARS" => array(
+		),
+		"MAX_LEVEL" => "3",
+		"CHILD_MENU_TYPE" => "left",
+		"USE_EXT" => "Y",
+		"DELAY" => "N",
+		"ALLOW_MULTI_SELECT" => "N",
+		"COMPONENT_TEMPLATE" => "bootstrap_v4"
+	),
+	false
+);?>
 				</div>
 			</div>
 			<!--endregion-->
