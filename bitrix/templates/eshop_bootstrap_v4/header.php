@@ -121,7 +121,7 @@ $curPage = $APPLICATION->GetCurPage(true);
 			<!--region menu-->
 			<div class="row mb-4 d-none d-md-block">
 				<div class="col">
-					<?$APPLICATION->IncludeComponent(
+					<? $APPLICATION->IncludeComponent(
 						"bitrix:menu",
 						"bootstrap_v4",
 						array(
